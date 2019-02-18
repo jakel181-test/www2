@@ -1,16 +1,13 @@
-
-<!DOCTYPE html>
 <html>
+<head>
+	<title>Your Flash Slideshow</title>
+</head>	
 <body>
-
-<?php 
-$x = "Hello";
-$y = 'world!';
-
-echo $x;
-echo "<br>"; 
-echo $y;
-?>
-
+	<object type="application/x-shockwave-flash" data="./slideshow/slideshow.swf" width="600" height="250">
+				<param name="menu" value="false" />
+				<param name="wmode" value="transparent" />
+				<param name="flashvars" value="xml=./slideshow/slideshow.xml&amp;dir=./slideshow/" />
+				<param name="movie" value="./slideshow/slideshow.swf" />
+	</object>
 </body>
 </html>
