@@ -3,6 +3,11 @@
 	<title>Your Flash Slideshow</title>
 </head>	
 <body>
-	<object type="application/x-shockwave-flash" data="./slideshow/slideshow.swf" width="600" height="250">Flash is not enabled.</object>
+	<object type="application/x-shockwave-flash" data="./slideshow/slideshow.swf" width="600" height="250">
+				<param name="menu" value="false" />
+				<param name="wmode" value="transparent" />
+				<param name="flashvars" value="xml=./slideshow/slideshow.xml&amp;dir=./slideshow/" />
+				<param name="movie" value="./slideshow/slideshow.swf" />
+	</object>
 </body>
 </html>
